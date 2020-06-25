@@ -38,23 +38,23 @@ public class Hands {
     }
 
     int ifShunZi() {
-        if(ShuZi==HuaSe2&&HuaSe==HuaSe3&&HuaSe==HuaSe4&&HuaSe==HuaSe5)
+        //判断是否为顺子
             return 1;
         return 0;
     }
 
     int ifSanTiao() {
-
+        //判断是否为三条
         return 1;
     }
 
-    int ifLiangDui() {
-
+    int ifLianDui() {
+        //判断是否为连对
         return 1;
     }
 
     int ifDuiZi() {
-
+        //判断是否为对子
         return 1;
     }
 }
